@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.nav_navdown{
+  position:sticky;
+  z-index: 1;
+  top: 20px;
+}
+.nav_navdown>nav{
+    background-color: white;
+}
+.anchor_box{
+    align-items:flex-end;
+}
+.anchor_box>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.Dashboard_button{
+    width: fit-content;
+    padding: 4px;
+    background-color: white;
+    color:rgb(47,128,237);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: 2px solid rgb(47,128,237);
+    border-radius: 8px;
+    align-items:center;
+}
+.login_button{
+    color:white;
+    background-color:rgb(47,128,237);
+    transition: background-color 2s ease;  ;
+}
+.login_button:hover{
+    /* transform:translateX(30px) ; */
+    background-color: white;
+    color:rgb(47,128,237);
+}
+#nav_downBar{
+    width: 100vw;
+    background-color:rgb(47,128,237);
+    height: 40px;
+}
+.nav_downBarText{
+    text-align: center;
+    
+}
+.hero_section{
+    position: relative;
+    width: 92vw;
+    height: auto;
+    border: 2px solid black;
+}
+.hero_left{
+    width: 50%;
+    /* border: 2px solid green; */
+    
+}
+.hero_left>h1{
+    font-weight:700;
+}
+.hero_left>h1>span{
+    color:rgb(47,128,237);
+}
+.hero_left>h5{ 
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(rgb(47,128,237),rgb(159,94,240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.students_placed{
+    /* border: 1px solid grey; */
+    flex: 1;
+}
+.students_placed>img{
+    padding-left: 5px;
+}
+.company_Achievments{
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding-top: 5px;
+    border-radius: 5px;
+
+}
+.jpg_caption{
+    font-size: medium !important;
+    font-weight: 700 !important;
+    text-align: left;
+    padding-left: 5px;
+}
+.achievement_block>p{
+    font-size: 13px;
+    /* padding-left: 5px; */
+}
+.accio_known{
+    width: 90%;
+    padding-top: 25px;
+   
+    /* border: 2px solid red; */
+}
+.outer_known{
+   width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#linkedin{
+    display: flex;
+    background-color: #0077B5;
+    border-radius: 30px;
+    overflow: hidden;
+    color: white;
+   
+}
+#linkedin>p{
+    font-weight: 700 !important;
+    padding-top: 15px;
+}
+#accio_student_made{
+    color: gray;
+    font-weight: 700;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 12px gray;
+   width: 60%;
+    
+}
+.hero_right{
+    width: 50%;
+    box-shadow: 10px 10px 7px 10px #FFECEC;
+    /* border: 2px solid blue; */
+}
