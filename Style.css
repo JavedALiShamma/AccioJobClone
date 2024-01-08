@@ -54,7 +54,7 @@
     position: relative;
     width: 92vw;
     height: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .hero_left{
     width: 50%;
@@ -67,7 +67,7 @@
 .hero_left>h1>span{
     color:rgb(47,128,237);
 }
-.hero_left>h5{ 
+.gradient_text{ 
     /* font-size: 72px; */
     background: -webkit-linear-gradient(rgb(47,128,237),rgb(159,94,240));
     -webkit-background-clip: text;
@@ -134,6 +134,82 @@
 }
 .hero_right{
     width: 50%;
-    box-shadow: 10px 10px 7px 10px #FFECEC;
     /* border: 2px solid blue; */
+    justify-content: center;
+}
+.input_section{
+    width: 70%;
+    border-radius: 20px;
+    /* border: 1px solid grey; */
+    box-shadow: 10px 10px 10px 30px #FFECEC;
+}
+.input_section>h3{
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+.input_section>h3>span{
+    color: #0077B5;
+    font-weight: 600!important;
+}
+.input_section>p{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: grey;
+   
+}
+.hero_right_form{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 60px;
+    padding-left: 30px;
+    margin-left: 20px;
+    color: gray;
+    border-radius: 10px;
+}
+.hero_right_form>input{
+    border: none;
+    width: 90%;
+    /* /* border-style: none; */
+}
+
+.hero_right_form>.fa-solid{
+    padding-right: 15px;
+    padding-top: 5px;
+}
+input:focus {
+    outline:none;
+}
+.form2{
+    padding-left: 10px !important;
+    color: black;
+}
+.form2>.fa-solid{
+    padding-left: 10px;
+}
+.apply_for_freeBTN{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background: rgb(61,118,237);
+    background: linear-gradient(90deg, rgba(61,118,237,1) 29%, rgba(142,56,237,1) 66%); 
+}
+.click_para{
+    padding-top: 5px !important;
+}
+.terms12_condition{
+    padding-top: 1PX;
+   padding-left: 150px;
+}
+#student_testimony{
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 600;
 }
