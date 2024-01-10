@@ -244,6 +244,9 @@ input:focus {
     align-items: center;
     justify-content: space-around;
 }
+.Sec1Clr_change{
+    background-color: rgb(220,201,255) !important;
+}
 .sec2{
     width: 421px;
     padding: 20px;
@@ -281,4 +284,67 @@ input:focus {
 .student_dis{
     font-size: x-small;
     word-wrap: wrap !important;
+}
+.outer_moving{
+    width: 100%;
+    height: 350px;
+   
+}
+.moveCart_leftSection{
+    width: 65%;
+    height: 100%;
+    box-shadow: 5px 0px  150px  whitesmoke ;
+    margin-left: 30px;
+}
+.moving_left_fixed{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(239,248,255);
+    z-index: 1;
+}
+.blue_clrOnly{
+    color: #0077B5;
+}
+.moving_left_fixed{
+   padding-left: 100px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.moving_left_fixed>h1{
+    font-weight: 400;;
+}
+.moving_left_fixed>h1>span{
+    font-weight: 600;
+}
+.seePlacement_btn{
+    background-color: #0077B5;
+    color: white;
+    padding: 10px 9px 9px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.moving_logos{
+    margin-left:40px ;
+    align-items: center;
+    
+}
+.moveCart_rightSection{
+    overflow: hidden;
+    width: 90%;
+}
+.moveCart_rightSection>div>img{
+    width: 150px;
+    height: 50px;
+    transform: translateX(-500px); 
+    transition: transform 30s linear;  
+}
+.moving_logos2{
+    margin-top: 40px;
+    transform: translateX(500px); 
+    transition: transform 30s linear; 
+}
+.moving_logos3{
+    margin-top: 40px;
+    transform: translateX(-500px); 
+    transition: transform 30s linear;
 }
