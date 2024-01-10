@@ -7,7 +7,7 @@
 .nav_navdown{
   position:sticky;
   z-index: 1;
-  top: 20px;
+  top: 0px;
 }
 .nav_navdown>nav{
     background-color: white;
@@ -209,7 +209,76 @@ input:focus {
    padding-left: 150px;
 }
 #student_testimony{
-    padding-left: 20px;
+    padding-left: 50px;
     font-size: large;
     font-weight: 600;
+}
+.Student_Reviews{
+    color: #0077B5;
+    font-weight: 600!important;
+}
+.head_student_review{
+    font-weight: 600;
+}
+.card1{
+    width: 645px;
+    height: 402px;
+   
+    border-radius: 20px;
+    overflow: hidden;
+}
+.Outer_card{
+    /* margin-left: 10px;
+    margin-top: 20px;
+    /*  */
+    width: auto;
+    display: flex;
+    /* white-space: nowrap; */
+    overflow-x: scroll;
+}
+.sec1{
+    width: 224px;
+    background-color:rgb(254,186,181);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec2{
+    width: 421px;
+    padding: 20px;
+    background-color: white;
+}
+.student_name{
+    font-weight: 700;
+
+}
+.social_media{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(1,37,85);
+    color: white;
+    font-size: x-large;
+}
+.social_media>i{
+    padding-left: 15px;
+    padding-top: 12px;
+}
+.image_div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.button_box>button{
+    color: white;
+    background-color:rgb(255,113,105) ;
+    width: fit-content;
+    padding: 5px;
+    height: 40px;
+    font-size: small;
+}
+.student_dis{
+    font-size: x-small;
+    word-wrap: wrap !important;
 }
